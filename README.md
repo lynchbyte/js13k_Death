@@ -1,5 +1,5 @@
 # js13k_Death
-sorce code for 2022 js13k game
+source code for 2022 js13k game
 
 
 three.js
@@ -24,6 +24,10 @@ MIT License - Copyright 2019 Frank Force
 https://github.com/KilledByAPixel/ZzFX
 https://codepen.io/KilledByAPixel/pen/BaowKzv
 
+Shaders
+Game Over shader  -   adapted from https://codepen.io/takumifukasawa/pen/RwPQVzW
+Background noise shader - adapted from Bruno's Three.js journey noise shader  https://threejs-journey.com/
+
 
 Gulp;
 A toolkit that helps you automate painful or time-consuming tasks in your development workflow.
@@ -40,3 +44,21 @@ https://gulpjs.com/
 
 vr & ar standard three.js ar/vr buttons not used, instead this web xr explainer was helpful
 https://github.com/immersive-web/webxr/blob/master/explainer.md
+
+
+Bugs;
+AR
+*the board sometime jumps around after hit test,
+*the double tap on mode and reticle hit occasionally overlap,
+*once node highlighted it can't be unhightlighted to select another node,
+*the ui board/stats don't follow a new board's location,
+*the select doesn't always work when leaving Easy mode going to Extreme Mode.
+
+VR
+*floor plane, sometimes the alpha shader cuts out and the whole plane can be seen.
+
+Not perfect, something to work on for next year.
+
+
+
+
